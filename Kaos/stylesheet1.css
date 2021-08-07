@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Capriola;
+}
+
+/* Navbar */
+.navbar {
+  color: white;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-inverse {
+  background-color: #000;
+}
+
+.dropdown-menu {
+  background-color: black;
+}
+
+.dropdown-menu a {
+  color: white;
+}
+
+.collapse {
+  float: right;
+}
+
+.nav-item {
+  margin-right: 40px;
+}
+
+/* Product */
+.product {
+  margin-top: 9%;
+  margin-bottom: 5%;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.card-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.card-body {
+  height: 300px;
+}
+
+.card-body .btn {
+  position: absolute;
+  right: 0;
+  margin-right: 3%;
+}
+
+/* Responsive Besar */
+@media (max-width: 1024px) {
+  /* Product */
+  .product {
+    margin-top: 100px;
+  }
+
+  .card-title {
+    font-size: 30px;
+  }
+
+  /* Footer */
+  footer {
+    height: 200px;
+  }
+}
+
+/* Responsive Kecil */
+@media (max-width: 640px) {
+  /* Product */
+  .card-body {
+    height: 300px;
+  }
+
+  .card-title {
+    font-size: 30px;
+  }
+
+  .product {
+    margin-top: 23%;
+    margin-bottom: 5%;
+  }
+
+  /* Footer */
+  footer {
+    height: 190px;
+  }
+}
